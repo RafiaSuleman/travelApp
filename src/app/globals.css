@@ -24,3 +24,84 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+@layer utilities {
+
+  .btn_white { 
+    @apply  border-green-600 bg-white px-8 py-3 text-green-500
+  }
+  .btn_white_text  { 
+    @apply  border-white bg-white px-8 py-3 text-gray-500
+  }
+  .btn_green  { 
+    @apply  border-green-600 bg-green-600 px-8 py-5 text-white
+  }
+  .btn_dark_green { 
+    @apply  bg-green-900 px-8 py-4 text-white transition-all hover:bg-black
+  }
+  .btn_dark_green_outline  { 
+    @apply border-gray-50 bg-green-900 px-8 py-5 text-white
+  }
+  .flexBetween {
+    @apply flex items-center justify-between;
+  }
+  .camp-quote {
+    @apply absolute -right-6 bottom-4 w-[140px] lg:bottom-10 xl:-right-8 xl:w-[186px];
+  }
+  .max-container {
+    @apply mx-auto max-w-[1440px];
+  }
+  .regular-64 {
+    @apply text-[64px] font-[400] leading-[120%];
+  }
+
+  .regular-40 {
+    @apply text-[40px] font-[400] leading-[120%];
+  }
+
+  .regular-32 {
+    @apply text-[32px] font-[400];
+  }
+
+  .regular-24 {
+    @apply text-[24px] font-[400];
+  }
+
+  .regular-20 {
+    @apply text-[20px] font-[400];
+  }
+
+  .regular-18 {
+    @apply text-[18px] font-[400];
+  }
+
+  .regular-16 {
+    @apply text-[16px] font-[400];
+  }
+
+  .regular-14 {
+    @apply text-[14px] font-[400];
+  }
+
+  .medium-14 {
+    @apply text-[14px] font-[600];
+  }
+  
+  .bold-64 {
+    @apply text-[64px] font-[700] leading-[120%];
+  }
+
+  .bold-40 {
+    @apply text-[40px] font-[700] leading-[120%];
+  }
+
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hide-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+ 
