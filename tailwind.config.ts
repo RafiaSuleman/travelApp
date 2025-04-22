@@ -33,7 +33,7 @@ module.exports = {
           'bg-img-1': "url('/asserts/img-1.png')",
           'bg-img-2': "url('/asserts/img-2.png')",
           'feature-bg': "url('/asserts/feature-bg.png')",
-          pattern: "url('/asserts/pattern.png')",
+          'pattern': "url('/asserts/pattern.png')",
           'pattern-2': "url('/asserts/pattern-bg.png')",
         },
         screens: {

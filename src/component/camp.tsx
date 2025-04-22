@@ -42,7 +42,7 @@ const CampSite = ({ backgroundImage, title, subtitle, peopleJoined }: CampProps)
 const Camp = () => {
 
   return (
-    <section className=" lg:mx-10 mx-auto max-w-[1440px] relative flex flex-col py-10 lg:mb-10 lg:py-20 xl:mb-20">
+    <section className=" lg:mx-10 mx-auto max-w-[1440px] relative flex flex-col py-10 lg:mb-10 lg:py-20 xl:mb-20 ">
     <div className="hide-scrollbar flex w-full items-start justify-start gap-8 overflow-x-auto ">
       <CampSite backgroundImage="/asserts/img-1.png" title="Putuk Turno Camp" subtitle=" Lorem ipsum dolor sit amet." peopleJoined="100 +Joined" />
       <CampSite backgroundImage="/asserts/img-2.png" title="Camp 2" subtitle=" Lorem ipsum dolor sit amet." peopleJoined="200 +Joined" />

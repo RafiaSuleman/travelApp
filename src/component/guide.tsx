@@ -3,8 +3,8 @@ import Image from 'next/image';
 
 const Guide = () => {
   return (
-    <section className="flex justify-center items-center flex-col mx-5">
-      <div className="px-6 lg:px-20  mx-auto max-w-[1440px] w-full pb-10 ">
+    <section className="flex justify-center items-center flex-col px-6 lg:px-20 3xl:px-0 ">
+      <div className=" lg:px-20  mx-auto max-w-[1440px] w-full pb-10 ">
         <Image src="/asserts/camp.svg" alt="camp" width={50} height={50} />
         <p className="uppercase regular-18 -mt-1 mb-3 text-green-500">
           We are here for you
