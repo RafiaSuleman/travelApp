@@ -18,7 +18,7 @@ const Navbar = () => {
             ))}
         </ul>
         <div className='lg:flex justify-center hidden'>
-          <Button type="button" title="LogIn" icon="/asserts/user.svg" varient = "btn_dark_green"/>  
+          <Button type="button" title="LogIn" icon="/asserts/user.svg" variant = "btn_dark_green"/>  
         </div>
         <div className='lg:hidden flex items-center'>
           <Image src="/asserts/menu.svg" alt="" width={24} height={24}/>
